@@ -1,5 +1,7 @@
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 ul li {
@@ -47,55 +49,12 @@ nav ul {
 }
 
 .inscription a {
+    font-weight: bold;
     color: #0065FC;
 }
 
 .logo {
     max-width: 100%;
-}
-
-@media screen and (max-width: 992px) {
-    header {
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    body {
-        margin: 0;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    nav ul {
-        justify-content: space-evenly;
-    }
-    nav {
-        width: 100%;
-    }
-    .bouton1 {
-        padding-left: 80px;
-        padding-right: 95px;
-        padding-top: 10px;
-        padding-bottom: 5px;
-        text-decoration: none;
-        color: black;
-        font-weight: bold;
-        align-items: center;
-    }
-    .bouton1:hover {
-        border-top: none;
-        border-bottom: 3px solid #0065FC;
-        color: #0065FC;
-    }
-    .inscription {
-        position: absolute;
-        top: 0;
-        right: 0;
-        color: #0065FC;
-        margin: 20px 30px;
-    }
-    .logo {
-        margin-bottom: 40px;
-    }
 }
 
 .main {
@@ -126,6 +85,7 @@ p {
     margin-inline-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    font-weight: 450;
 }
 
 .research-box {
@@ -217,6 +177,10 @@ button {
     display: none;
 }
 
+.filters {
+    padding-bottom: 30px;
+}
+
 .filters h3 {
     font-size: 24px;
     display: inline;
@@ -269,4 +233,289 @@ button {
 
 .info p {
     display: inline;
+}
+
+.bloc-marseille {
+    display: flex;
+}
+
+.bloc-hebergement .push-to-right {
+    display: block;
+    width: 100%;
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.bloc-hebergement {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    margin: 0 0 0 40px;
+    max-width: 1200px;
+}
+
+.bloc {
+    background: #f2f2f2;
+    border-radius: 25px;
+}
+
+.cases-marseille {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: 60px;
+}
+
+.cases-marseille a {
+    width: 300px;
+    border-radius: 20px;
+    background: white;
+    padding: 5px;
+    box-shadow: 0 0 6px 0 #0000002e;
+    height: 200px;
+    margin: 15px;
+}
+
+.cases-marseille a img {
+    width: 300px;
+    border-radius: 10px 10px 0 0;
+    height: 100px;
+}
+
+.case-marseille {
+    background: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    border-radius: 20px;
+}
+
+.case-text {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65px;
+}
+
+.case-text h3 {
+    margin-top: 2px;
+}
+
+a {
+    color: initial;
+}
+
+.hostingMainCardGradeIcon {
+    color: #0065FC;
+}
+
+.hostingMainCardGradeIconEmpty {
+    color: #D9D9D9;
+}
+
+.bloc-populaire {
+    margin: 0 40px 0 40px;
+    max-width: 450px;
+}
+
+.populaire {
+    display: flex;
+    flex-direction: row;
+    height: 135px;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0 0 6px 0 #0000002e;
+    padding: 5px;
+}
+
+.populaire img {
+    border-radius: 10px 0 0 10px;
+}
+
+.cases-text {
+    margin-left: 20px;
+}
+
+.stars1 {
+    margin-top: 30px;
+}
+
+footer {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 40px;
+    padding-right: 400px;
+    max-width: 1700px;
+}
+
+footer div h5 {
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+footer div ul li {
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    body {
+        margin: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    nav ul {
+        justify-content: space-evenly;
+    }
+    nav {
+        width: 100%;
+    }
+    .bouton1 {
+        padding-left: 80px;
+        padding-right: 95px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        text-decoration: none;
+        color: black;
+        align-items: center;
+    }
+    .bouton1:hover {
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+        color: #0065FC;
+    }
+    .inscription {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #0065FC;
+        font-weight: 600;
+        margin: 20px 30px;
+    }
+    .logo {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    main {
+        padding-top: 20px;
+    }
+    .title-h1 {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+    h1 {
+        display: block;
+        font-weight: bold;
+    }
+    p {
+        display: block;
+        padding-bottom: 10px;
+    }
+    .icon-location {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 55px;
+        height: auto;
+        background-color: #f2f2f2;
+        border-radius: 14px 0 0 14px;
+    }
+    .button-research {
+        display: none;
+    }
+    .button-research.searchFormSubmitinputIcon.fas.fa-search {
+        border: none;
+        border-radius: 0 14px 14px 0;
+        background-color: #0065FC;
+        color: white;
+        font-weight: 900;
+        font-size: 16px;
+        padding: 17px;
+        cursor: pointer;
+    }
+    .filters h3 {
+        font-size: 24px;
+        display: inline;
+        padding-bottom: 5px;
+    }
+    .filters ul {
+        margin-top: 5px;
+    }
+    #icon-glass {
+        display: block;
+        right: -20px;
+        border-radius: 15px;
+    }
+    .bloc-marseille {
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1199px) {
+    header {}
+    body {
+        margin: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    nav ul {}
+    nav {}
+    .bouton1 {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        text-decoration: none;
+        color: black;
+    }
+    .bouton1:hover {
+        border-bottom: 3px solid #0065FC;
+        color: #0065FC;
+    }
+    .inscription {
+        margin-left: 30px;
+        color: #0065FC;
+    }
+    .logo {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    body {
+        margin: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .bouton1 {}
+    .bouton1:hover {
+        border-top: 5px solid #0065FC;
+        color: #0065FC;
+    }
+    .inscription {
+        margin-left: 50px;
+        color: #0065FC;
+        font-weight: 600;
+    }
 }
