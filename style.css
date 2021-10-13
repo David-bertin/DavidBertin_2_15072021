@@ -122,7 +122,7 @@
         border: none;
         border-radius: 0 14px 14px 0;
         background-color: #0065FC;
-        color: white;
+        color: lightgray;
         font-weight: 700;
         font-size: 16px;
         padding: 17px;
@@ -698,30 +698,49 @@
             list-style: none;
             padding: 5px;
             box-shadow: 0px 0px 6px 0px #0000002e;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .case-marseille img {
+            height: 99px;
+        }
+        .case-text h3 {
+            margin-top: 2px;
+            font-size: 1.1em;
+        }
+        .hotel-price1 {
+            margin-block-start: 0.5em;
+        }
+        .stars {
+            margin-top: 0.5em;
         }
         .bloc-populaire {
             padding: 20px;
             background: #f2f2f2;
             border-radius: 0;
-            margin-left: -10px;
             margin-right: -10px;
         }
         .populaire {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             background: white;
             box-shadow: 0 0 6px 0 #0000002e;
             padding: 5px;
             margin-bottom: 15px;
-            flex-direction: column;
+            width: 305px;
         }
         .populaire img {
-            width: 100%;
-            height: 210px;
+            width: 44%;
+            height: 150px;
             object-fit: cover;
             margin-right: 15px;
-            border-radius: 20px 20px 0 0;
+            border-radius: 20px 0 0 20px;
+        }
+        #populaire3 {
+            width: 52%;
+        }
+        .hotelpopulaire-name {
+            font-size: 1rem;
+            font-weight: bold;
         }
         .activite-marseille {
             display: block;
@@ -731,47 +750,55 @@
         }
         #activite-marseille1 {
             width: 100%;
+            height: 200px;
         }
         #img1 {
             width: 100%;
-            height: 330px;
+            height: 140px;
         }
         #activite-marseille2 {
             width: 100%;
             margin-top: 30px;
+            height: 200px;
         }
         #img2 {
-            height: 330px;
+            height: 140px;
             width: 100%;
         }
         #activite-marseille3 {
+            width: 100%;
             margin-top: 30px;
+            height: 200px;
         }
         #img3 {
-            height: 330px;
+            height: 140px;
             width: 100%;
         }
         #activite-marseille4 {
+            width: 100%;
             margin-top: 30px;
+            height: 200px;
         }
         #img4 {
-            height: 330px;
+            height: 140px;
             width: 100%;
         }
         #activite-marseille5 {
             width: 100%;
             margin-top: 30px;
+            height: 200px;
         }
         #img5 {
-            height: 330px;
+            height: 140px;
             width: 100%;
         }
         #activite-marseille6 {
             width: 100%;
             margin-top: 30px;
+            height: 200px;
         }
         #img6 {
-            height: 330px;
+            height: 140px;
             width: 100%;
         }
         #name1 {
@@ -788,7 +815,9 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding: 20px;
+            padding: 10px;
+            margin-left: -10px;
+            margin-right: -10px;
         }
         .footer-propos {
             margin-bottom: 40px;
