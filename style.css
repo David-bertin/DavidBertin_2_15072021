@@ -112,8 +112,6 @@
     
     .research-bar {
         padding: 0 0 0 20px;
-        height: 50px;
-        width: 220px;
         border: none;
         border-top: solid 1px #f2f2f2;
     }
@@ -276,11 +274,11 @@
         list-style: none;
         padding: 5px;
         box-shadow: 0px 0px 6px 0px #0000002e;
+        transition: ease 0.3s;
     }
     
     .case-marseille:hover {
         transform: scale(1.05);
-        transition: ease 0.3s;
     }
     
     .case-marseille img {
@@ -345,11 +343,11 @@
         box-shadow: 0 0 6px 0 #0000002e;
         padding: 5px;
         margin-bottom: 15px;
+        transition: ease 0.3s;
     }
     
     .populaire:hover {
         transform: scale(1.05);
-        transition: ease 0.3s;
     }
     
     .populaire img {
@@ -382,6 +380,7 @@
         height: 100%;
         border-radius: 25px;
         background: white;
+        transition: ease 0.3s;
     }
     
     .activite-height {
@@ -390,7 +389,6 @@
     
     .activite-height:hover {
         transform: scale(1.05);
-        transition: ease 0.3s;
     }
     
     .activite-height2 {
@@ -529,6 +527,11 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
         }
+        .bloc-marseille {
+            display: block;
+            display: flex;
+            flex-direction: column;
+        }
         .case-text h3 {
             margin-top: 0;
             font-size: 1em;
@@ -555,12 +558,19 @@
         nav {
             width: 100%;
         }
+        nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+        }
         .menu {
-            margin-bottom: 30px;
+            justify-content: center;
         }
         .bouton1 {
-            padding-left: 47px;
-            padding-right: 70px;
+            padding-right: 0;
+            padding-left: 0;
             padding-top: 10px;
             padding-bottom: 20px;
             text-decoration: none;
@@ -568,13 +578,22 @@
             font-weight: bold;
             align-items: center;
         }
+        ul li {
+            list-style: none;
+            ;
+            flex: 1;
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+        }
         .bouton1:hover {
             border-top: none;
             border-bottom: 3px solid #0065FC;
             color: #0065FC;
         }
         .inscription {
-            width: unset;
+            margin-left: 0;
             position: absolute;
             top: 0;
             right: 0;
@@ -595,13 +614,12 @@
         }
         h1 {
             font-size: 25px;
+            margin-top: 40px;
         }
         .research-box {
             margin-top: 30px;
         }
         .research-bar {
-            width: 230px;
-            height: 40px;
             font-size: 0.9rem;
         }
         .button-research {
@@ -617,7 +635,6 @@
         }
         #icon-glass {
             display: block;
-            position: absolute;
             left: 290px;
             border-radius: 15px;
         }
@@ -647,7 +664,6 @@
             display: flex;
             flex-direction: column;
             padding: 0;
-            width: max-content;
         }
         .filters ul li {
             display: inline;
@@ -700,9 +716,6 @@
             box-shadow: 0px 0px 6px 0px #0000002e;
             margin-bottom: 25px;
         }
-        .case-marseille img {
-            height: 99px;
-        }
         .case-text h3 {
             margin-top: 2px;
             font-size: 1.1em;
@@ -718,6 +731,7 @@
             background: #f2f2f2;
             border-radius: 0;
             margin-right: -10px;
+            margin-left: -10px;
         }
         .populaire {
             display: flex;
@@ -726,11 +740,8 @@
             box-shadow: 0 0 6px 0 #0000002e;
             padding: 5px;
             margin-bottom: 15px;
-            width: 305px;
         }
         .populaire img {
-            width: 44%;
-            height: 150px;
             object-fit: cover;
             margin-right: 15px;
             border-radius: 20px 0 0 20px;
@@ -810,14 +821,10 @@
             margin-left: 15px;
         }
         footer {
-            width: 100%;
             background: #f2f2f2;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding: 10px;
-            margin-left: -10px;
-            margin-right: -10px;
         }
         .footer-propos {
             margin-bottom: 40px;
