@@ -559,16 +559,14 @@
             margin-bottom: 30px;
         }
         .bouton1 {
-            padding-left: 75px;
-            padding-right: 85px;
+            padding-left: 47px;
+            padding-right: 70px;
             padding-top: 10px;
             padding-bottom: 20px;
             text-decoration: none;
             color: black;
             font-weight: bold;
             align-items: center;
-            margin-right: 60px;
-            margin-left: 50px;
         }
         .bouton1:hover {
             border-top: none;
@@ -595,13 +593,16 @@
             margin-bottom: 40px;
             margin-top: 0;
         }
+        h1 {
+            font-size: 25px;
+        }
         .research-box {
             margin-top: 30px;
         }
         .research-bar {
-            width: 270px;
-            height: 49px;
-            font-size: 1rem;
+            width: 230px;
+            height: 40px;
+            font-size: 0.9rem;
         }
         .button-research {
             display: none;
@@ -617,7 +618,7 @@
         #icon-glass {
             display: block;
             position: absolute;
-            left: 325px;
+            left: 290px;
             border-radius: 15px;
         }
         .fa-search {
@@ -631,16 +632,22 @@
         }
         .filters {
             padding-bottom: 30px;
-            margin-left: 25px;
+            margin-left: 0;
+            padding-left: 0;
+            font-size: 15px;
         }
         .filters h3 {
-            font-size: 24px;
-            display: inline;
+            padding-right: 10px;
+            display: flex;
+            padding-top: 15px;
+            padding-bottom: 10px;
+            font-size: 18px;
         }
         .filters ul {
             display: flex;
             flex-direction: column;
             padding: 0;
+            width: max-content;
         }
         .filters ul li {
             display: inline;
@@ -666,6 +673,9 @@
             padding: 18px;
             border-radius: 200px;
             margin-right: 15px;
+        }
+        .info {
+            margin-left: 5px;
         }
         .bloc-marseille {
             display: flex;
