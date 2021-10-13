@@ -36,15 +36,19 @@
     .bouton1 {
         padding-left: 50px;
         padding-right: 50px;
-        padding-top: 10px;
+        padding-top: 30px;
         padding-bottom: 5px;
         text-decoration: none;
         color: black;
     }
     
     .bouton1:hover {
-        border-top: 5px solid #0065FC;
+        border-top: 3px solid #0065FC;
         color: #0065FC;
+    }
+    
+    .inscription {
+        margin-left: 50px;
     }
     
     .inscription a {
@@ -54,6 +58,7 @@
     
     .logo {
         max-width: 100%;
+        margin-top: 40px;
     }
     
     .title-h1 {
@@ -474,6 +479,8 @@
         justify-content: space-between;
         margin: 40px;
         padding: 40px;
+        margin-left: -10px;
+        margin-right: -10px;
     }
     
     footer div h5 {
@@ -503,8 +510,11 @@
             margin-left: 10px;
             margin-right: 10px;
         }
+        .menu {
+            margin-top: 20px;
+        }
         .bouton1:hover {
-            border-top: 5px solid #0065FC;
+            border-top: 3px solid #0065FC;
             color: #0065FC;
         }
         .inscription {
@@ -512,9 +522,19 @@
             color: #0065FC;
             font-weight: 600;
         }
+        .logo {
+            margin-top: 15px;
+        }
         .filters ul {
             display: grid;
             grid-template-columns: 1fr 1fr;
+        }
+        .case-text h3 {
+            margin-top: 0;
+            font-size: 1em;
+        }
+        .hotel-price {
+            font-size: 0.9;
         }
         #activite-marseille5 {
             margin-top: 0;
@@ -527,31 +547,61 @@
             margin-left: 10px;
             margin-right: 10px;
         }
+        header {
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        nav {
+            width: 100%;
+        }
+        .menu {
+            margin-bottom: 30px;
+        }
         .bouton1 {
-            padding-left: 30px;
-            padding-right: 30px;
+            padding-left: 75px;
+            padding-right: 85px;
             padding-top: 10px;
+            padding-bottom: 20px;
             text-decoration: none;
             color: black;
+            font-weight: bold;
+            align-items: center;
+            margin-right: 60px;
+            margin-left: 50px;
         }
         .bouton1:hover {
+            border-top: none;
             border-bottom: 3px solid #0065FC;
             color: #0065FC;
         }
         .inscription {
-            margin-left: 30px;
+            width: unset;
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        .inscription a {
             color: #0065FC;
+            margin-right: 5px;
+            margin-top: 15px;
         }
         .logo {
             margin-bottom: 40px;
+            margin-top: 0;
         }
         .research-box {
-            width: 80%;
-            position: relative;
+            margin-top: 30px;
         }
         .research-bar {
             width: 270px;
             height: 49px;
+            font-size: 1rem;
         }
         .button-research {
             display: none;
@@ -567,7 +617,7 @@
         #icon-glass {
             display: block;
             position: absolute;
-            left: 280px;
+            left: 325px;
             border-radius: 15px;
         }
         .fa-search {
@@ -655,7 +705,6 @@
             padding: 5px;
             margin-bottom: 15px;
             flex-direction: column;
-            height: 290px;
         }
         .populaire img {
             width: 100%;
@@ -667,6 +716,8 @@
         .activite-marseille {
             display: block;
             margin-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
         }
         #activite-marseille1 {
             width: 100%;
@@ -722,12 +773,17 @@
             margin-left: 15px;
         }
         footer {
+            width: 100%;
             background: #f2f2f2;
             display: flex;
+            flex-direction: column;
             justify-content: space-between;
-            margin: 40px;
-            padding: 40px;
-            padding-right: 400px;
-            max-width: 1700px;
+            padding: 20px;
+        }
+        .footer-propos {
+            margin-bottom: 40px;
+        }
+        .footer-hebergements {
+            margin-bottom: 40px;
         }
     }
