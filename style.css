@@ -637,6 +637,7 @@ footer div ul li {
     }
     .research-bar {
         font-size: 0.9rem;
+        border-top: none;
     }
     .button-research {
         display: none;
