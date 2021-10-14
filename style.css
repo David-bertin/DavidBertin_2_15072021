@@ -114,6 +114,7 @@ input::placeholder {
     padding: 0 0 0 20px;
     border: none;
     border-top: solid 1px #f2f2f2;
+    border-bottom: solid 1px #f2f2f2;
 }
 
 .button-research {
@@ -638,6 +639,7 @@ footer div ul li {
     .research-bar {
         font-size: 0.9rem;
         border-top: none;
+        border-bottom: none;
     }
     .button-research {
         display: none;
