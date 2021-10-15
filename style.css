@@ -154,6 +154,7 @@ input::placeholder {
     font-variant: normal;
     text-rendering: auto;
     line-height: 1;
+    color: black;
 }
 
 button {
@@ -165,7 +166,6 @@ button {
     text-indent: 0px;
     text-shadow: none;
     text-align: center;
-    align-items: flex-start;
     box-sizing: border-box;
     margin: 0em;
     font: 400 13.333px Arial;
@@ -177,7 +177,6 @@ button {
 
 .filters {
     padding-bottom: 30px;
-    margin-left: 25px;
 }
 
 .filters h3 {
@@ -222,7 +221,6 @@ button {
 }
 
 .info {
-    margin-left: 25px;
     margin-bottom: 40px;
 }
 
@@ -688,6 +686,7 @@ footer div ul li {
         display: flex;
         flex-direction: column;
         padding: 0;
+        width: max-content;
     }
     .filters ul li {
         display: inline;
