@@ -509,6 +509,11 @@ footer div ul li {
     font-weight: 700px;
 }
 
+.a:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
 #activites .activite:first-child,
 #activites .activite:nth-child(4) {
     grid-row: 1/3;
