@@ -57,6 +57,10 @@ nav ul {
     color: #0065FC;
 }
 
+#logo-img {
+    margin-top: 20px;
+}
+
 .title-h1 {
     font-size: 32px;
     margin: 10px 0;
@@ -69,6 +73,7 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    margin-top: 40px;
 }
 
 .subtitle {
