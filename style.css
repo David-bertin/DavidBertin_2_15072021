@@ -31,6 +31,7 @@ header {
 
 nav ul {
     display: flex;
+    padding-top: 40px;
 }
 
 .bouton1 {
@@ -54,11 +55,6 @@ nav ul {
 .inscription a {
     font-weight: bold;
     color: #0065FC;
-}
-
-.logo {
-    max-width: 100%;
-    margin-top: 40px;
 }
 
 .title-h1 {
@@ -158,6 +154,7 @@ input::placeholder {
 }
 
 button {
+    -moz-appearance: auto;
     appearance: auto;
     writing-mode: horizontal-tb !important;
     letter-spacing: normal;
@@ -392,7 +389,6 @@ a {
     background-color: #ffffff;
     box-shadow: 4px 2px 8px 1px #cccccc;
     border-radius: 20px 20px 0 0;
-    height: 100%;
     border-radius: 25px;
     background: white;
     transition: ease 0.3s;
@@ -587,6 +583,7 @@ footer div ul li {
     }
     .menu {
         justify-content: center;
+        margin-top: 0;
     }
     .bouton1 {
         padding-right: 0;
@@ -803,7 +800,6 @@ footer div ul li {
     }
     #activite-marseille1 {
         width: 100%;
-        height: 200px;
     }
     #img1 {
         width: 100%;
@@ -812,7 +808,6 @@ footer div ul li {
     #activite-marseille2 {
         width: 100%;
         margin-top: 30px;
-        height: 200px;
     }
     #img2 {
         height: 140px;
@@ -821,7 +816,6 @@ footer div ul li {
     #activite-marseille3 {
         width: 100%;
         margin-top: 30px;
-        height: 200px;
     }
     #img3 {
         height: 140px;
@@ -830,7 +824,6 @@ footer div ul li {
     #activite-marseille4 {
         width: 100%;
         margin-top: 30px;
-        height: 200px;
     }
     #img4 {
         height: 140px;
@@ -839,7 +832,6 @@ footer div ul li {
     #activite-marseille5 {
         width: 100%;
         margin-top: 30px;
-        height: 200px;
     }
     #img5 {
         height: 140px;
@@ -848,7 +840,6 @@ footer div ul li {
     #activite-marseille6 {
         width: 100%;
         margin-top: 30px;
-        height: 200px;
     }
     #img6 {
         height: 140px;
