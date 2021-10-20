@@ -381,6 +381,10 @@ a {
     justify-content: space-between;
 }
 
+.a .title-h3 .push-to-right {
+    font-size: 1rem;
+}
+
 .activite-marseille {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
