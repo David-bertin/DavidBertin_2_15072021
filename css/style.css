@@ -37,8 +37,6 @@ nav ul {
 .bouton1 {
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 30px;
-    padding-bottom: 5px;
     text-decoration: none;
     color: black;
 }
@@ -81,7 +79,6 @@ h1 {
 }
 
 p {
-    display: block;
     margin-block-start: 1em;
     margin-inline-end: 1em;
     margin-inline-start: 0px;
@@ -158,21 +155,6 @@ input::placeholder {
     color: black;
 }
 
-button {
-    -moz-appearance: auto;
-    appearance: auto;
-    writing-mode: horizontal-tb !important;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    text-align: center;
-    box-sizing: border-box;
-    margin: 0em;
-    font: 400 13.333px Arial;
-}
-
 #icon-glass {
     display: none;
 }
@@ -188,8 +170,6 @@ button {
 
 .filters ul {
     display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     padding: 0;
 }
 
@@ -528,11 +508,6 @@ footer div ul li {
         justify-content: space-between;
         align-items: center;
     }
-    body {
-        margin: 0;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
     .menu {
         margin-top: 20px;
     }
@@ -570,11 +545,6 @@ footer div ul li {
 }
 
 @media screen and (max-width: 767px) {
-    body {
-        margin: 0;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
     header {
         flex-direction: column;
         justify-content: space-between;
