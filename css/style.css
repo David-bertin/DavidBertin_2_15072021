@@ -39,6 +39,7 @@ nav ul {
     padding-right: 40px;
     text-decoration: none;
     color: black;
+    padding-top: 30px;
 }
 
 .bouton1:hover {
@@ -530,7 +531,7 @@ footer div ul li {
     .bloc-marseille {
         display: block;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .case-text h3 {
         margin-top: 0;
