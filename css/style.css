@@ -47,7 +47,7 @@ nav ul {
     padding-right: 40px;
     text-decoration: none;
     color: black;
-    padding-top: 30px;
+    padding-top: 40px;
     border-top: 3px solid lightgray;
 }
 
@@ -629,7 +629,7 @@ footer div ul li {
         align-items: center;
     }
     .menu {
-        margin-top: 20px;
+        margin-top: 0;
     }
     .bouton1:hover {
         border-top: 3px solid #0065FC;
@@ -639,9 +639,6 @@ footer div ul li {
         margin-left: 50px;
         color: #0065FC;
         font-weight: 600;
-    }
-    .logo {
-        margin-top: 15px;
     }
     .filters ul {
         display: grid;
@@ -658,6 +655,10 @@ footer div ul li {
     }
     .hotel-price {
         font-size: 0.9;
+    }
+    .case-marseille-img-host {
+        width: 100%;
+        height: 200px;
     }
     #activite-marseille5 {
         margin-top: 0;
