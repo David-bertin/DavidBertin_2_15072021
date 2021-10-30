@@ -404,16 +404,8 @@ a {
     transition: ease 0.3s;
 }
 
-.activite-height {
-    grid-row: 1/3;
-}
-
 .activite-height:hover {
     transform: scale(1.05);
-}
-
-.activite-height2 {
-    grid-row: 1/3;
 }
 
 .activite:hover {
@@ -442,12 +434,10 @@ a {
 #img1 {
     height: 485px;
     width: 100%;
-    grid-row: 1/3;
 }
 
 #activite-marseille2 {
     width: 100%;
-    grid-row-end: 2;
 }
 
 #img2 {
@@ -466,7 +456,6 @@ a {
 #img4 {
     height: 485px;
     width: 100%;
-    grid-row: 1/3;
 }
 
 #activite-marseille5 {
