@@ -22,10 +22,6 @@ p {
     font-weight: 450;
 }
 
-a:-webkit-any-link {
-    text-decoration: none;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -688,6 +684,12 @@ footer div ul li {
         align-items: center;
         border-top: none;
         border-bottom: 3px solid lightgray;
+    }
+    #bouton-hebergements {
+        margin-left: -15px;
+    }
+    #bouton-activite {
+        padding-left: 60px;
     }
     ul li {
         list-style: none;
