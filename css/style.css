@@ -593,7 +593,6 @@ footer div h5 {
 footer div ul li {
     padding: 5px;
     font-size: 18px;
-    font-weight: 700px;
 }
 
 .a:hover {
@@ -743,7 +742,6 @@ footer div ul li {
         border-radius: 0 14px 14px 0;
         background-color: #0065FC;
         color: white;
-        font-weight: 700;
         font-size: 16px;
         padding: 17px;
         cursor: pointer;
@@ -782,7 +780,6 @@ footer div ul li {
     .filters ul li {
         display: inline-block;
         margin-left: 0;
-        font-weight: 700;
         border: solid 2px #e2e2e2;
         padding: 0 20px 0 0;
         margin-top: 10px;
