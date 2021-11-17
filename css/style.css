@@ -597,11 +597,6 @@ footer div ul li {
     text-decoration-line: underline;
 }
 
-#activites .activite:first-child,
-#activites .activite:nth-child(4) {
-    grid-row: 1/3;
-}
-
 @media screen and (max-width: 1024px) {
     header {
         flex-direction: row;
@@ -671,7 +666,7 @@ footer div ul li {
         margin-top: 0;
     }
     .bouton1 {
-        padding-right: 50%;
+        padding-right: 40%;
         padding-top: 10px;
         padding-bottom: 20px;
         text-decoration: none;
@@ -683,9 +678,6 @@ footer div ul li {
     }
     #bouton-hebergements {
         margin-left: -15px;
-    }
-    #bouton-activite {
-        padding-left: 65px;
     }
     ul li {
         list-style: none;
